@@ -1,0 +1,30 @@
+{
+  "author": "Matthias Buchholz",
+  "dependencies": {
+    "@types/selenium-webdriver": "^4.0.9",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "@typescript-eslint/eslint-plugin": "^2.24.0",
+    "@typescript-eslint/parser": "^2.24.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "typescript": "^3.9.7"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "./es6/module.js",
+  "name": "e2e",
+  "scripts": {
+    "build": "tsc -p tsconfig.release.json",
+    "start": "ts-node src/module.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "typings": "./es6/module.d.ts",
+  "version": "1.0.0"
+}
